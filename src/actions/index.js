@@ -2,9 +2,10 @@
 import { SIGN_IN } from "./types";
 import { SIGN_OUT } from "./types";
 
-export const signIn = () => {
+export const signIn = (userId) => {
   return {
     type: SIGN_IN,
+    payload: userId,
   };
 };
 
