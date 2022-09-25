@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'silkscreen';
-  src: local('silkscreen'), url(./slkscr.ttf) format('truetype');
+  font-family: "silkscreen";
+  src: local("silkscreen"), url(./slkscr.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'pixeboy';
-  src: local('pixeboy'), url(./pixeboy.ttf) format('truetype');
+  font-family: "pixeboy";
+  src: local("pixeboy"), url(./pixeboy.ttf) format("truetype");
 }
 
 /* iframe {
@@ -59,7 +59,7 @@ div.ui.celled.list {
 }
 
 body .ui.list > .item > i.icon {
-  content: '';
+  content: "";
   display: block;
   background-size: cover;
   height: 180px;
@@ -69,52 +69,52 @@ body .ui.list > .item > i.icon {
 }
 
 .item:nth-child(1) i {
-  background: url('./16.jpeg');
+  background: url("./16.jpeg");
 }
 .item:nth-child(2) i {
-  background: url('./12.jpeg');
+  background: url("./12.jpeg");
 }
 .item:nth-child(3) i {
-  background: url('./3.jpeg');
+  background: url("./3.jpeg");
 }
 .item:nth-child(4) i {
-  background: url('./4.jpeg');
+  background: url("./4.jpeg");
 }
 .item:nth-child(5) i {
-  background: url('./5.jpeg');
+  background: url("./5.jpeg");
 }
 .item:nth-child(6) i {
-  background: url('./6.jpeg');
+  background: url("./6.jpeg");
 }
 .item:nth-child(7) i {
-  background: url('./7.jpeg');
+  background: url("./7.jpeg");
 }
 .item:nth-child(8) i {
-  background: url('./8.jpeg');
+  background: url("./8.jpeg");
 }
 .item:nth-child(9) i {
-  background: url('./9.jpeg');
+  background: url("./9.jpeg");
 }
 .item:nth-child(10) i {
-  background: url('./10.jpeg');
+  background: url("./10.jpeg");
 }
 .item:nth-child(11) i {
-  background: url('./11.jpeg');
+  background: url("./11.jpeg");
 }
 .item:nth-child(12) i {
-  background: url('./2.jpeg');
+  background: url("./2.jpeg");
 }
 .item:nth-child(13) i {
-  background: url('./13.jpeg');
+  background: url("./13.jpeg");
 }
 .item:nth-child(14) i {
-  background: url('./14.jpeg');
+  background: url("./14.jpeg");
 }
 .item:nth-child(15) i {
-  background: url('./15.jpeg');
+  background: url("./15.jpeg");
 }
 .item:nth-child(16) i {
-  background: url('./1.jpeg');
+  background: url("./1.jpeg");
 }
 
 #root > div > div > div.ui.secondary.pointing.menu > a {
@@ -143,14 +143,16 @@ body .ui.list > .item > i.icon {
 }
 
 .item .right.floated.content a:first-of-type:before {
-  content: '✎';
+  /* "✎" */
+  content: "EDIT";
   color: white;
   font-size: 12px;
   padding-right: 5px;
 }
 
 .item .right.floated.content a:nth-child(2):before {
-  content: '✕';
+  /* "✕" */
+  content: "DELETE";
   color: white;
   font-size: 12px;
 }
@@ -185,7 +187,7 @@ video {
 .streamer {
   position: relative;
   height: 320px;
-  background: url('./streamer.jpeg') no-repeat;
+  background: url("./streamer.jpeg") no-repeat;
   background-size: cover;
   background-position: 0 -85px;
 }
