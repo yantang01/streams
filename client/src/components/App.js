@@ -7,6 +7,7 @@ import StreamShow from "./streams/StreamShow";
 import StreamList from "./streams/StreamList";
 import Header from "./Header";
 import history from "../history";
+import "../style/App.css";
 
 function App() {
   return (
