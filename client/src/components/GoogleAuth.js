@@ -31,10 +31,12 @@ class GoogleAuth extends React.Component {
 
   onSignInClick = () => {
     this.auth.signIn();
+    this.auth.disconnect();
   };
 
   onSignOutClick = () => {
     this.auth.signOut();
+    this.auth.disconnect();
   };
 
   renderAuthButton() {
