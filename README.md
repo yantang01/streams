@@ -1,6 +1,8 @@
 # Streamy - React Web App
+- A video streaming web application using React that allows users to record video and stream it live to viewers.
+- This app is the capstone project of [Modern React with Redux](https://www.udemy.com/course/react-redux) course.
+
 ![Main Page](https://user-images.githubusercontent.com/92637601/195698575-53765acf-1faa-430d-bf4b-eb5023012866.png)
-A video streaming web application using React that allows users to record video and stream it live to viewers.
 
 ## Steps to run in dev environment:
 
