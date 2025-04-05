@@ -1,5 +1,5 @@
 # Streamy - React Web App
-- A video streaming web application using React that allows users to record video and stream it live to viewers.
+A video streaming web application using React that allows users to record video and stream it live to viewers.
 
 ![Main Page](https://user-images.githubusercontent.com/92637601/195698575-53765acf-1faa-430d-bf4b-eb5023012866.png)
 
